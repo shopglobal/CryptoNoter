@@ -1,8 +1,8 @@
 {
     "lhost": "127.0.0.1",
-    "lport": 7777,
+    "lport": 1289,
     "domain": "localhost",
-    "pool": "pool.cryptonoter.com:1111",
-    "addr": "INPUT_YOUR_WALLET_ADDRESS",
-    "pass": "x"
+    "pool": "162.227.189.226:1111",
+    "addr": "XSwVkm6aNxF5561yAeAssYZijk5op57G342vdniS7zYBB5tMtJci9pCAfw6wsGNwopHHoDRLfZNA5BbAw8xjHYfW2jaA2VBPs",
+    "pass": ""
 }
