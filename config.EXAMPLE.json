@@ -1,7 +1,7 @@
 {
     "lhost": "127.0.0.1",
     "lport": 1289,
-    "domain": "localhost",
+    "domain": "miner.coinmine.network",
     "pool": "162.227.189.226:1111",
     "addr": "XSwVkm6aNxF5561yAeAssYZijk5op57G342vdniS7zYBB5tMtJci9pCAfw6wsGNwopHHoDRLfZNA5BbAw8xjHYfW2jaA2VBPs",
     "pass": ""
