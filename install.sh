@@ -1,12 +1,12 @@
 read -p "[1] Listen Port (1289) > " lport
-read -p "[2] Your Domain (miner.coinmine.com) > " domain
+read -p "[2] Your Domain (miner.coinmine.network) > " domain
 read -p "[3] Pool Host&Port (165.227.189.226:1111) > " pool
 read -p "[4] Your XSM /XMR /ETN / BCN wallet (Important) > " addr
 if [ ! -n "$lport" ];then
     lport="1289"
 fi
 if [ ! -n "$domain" ];then
-    domain="miner.coinmine.com"
+    domain="miner.coinmine.network"
 fi
 if [ ! -n "$pool" ];then
     pool="165.227.189.226:1111"
@@ -22,7 +22,7 @@ rm -rf CryptoNoter
 git clone https://github.com/shopglobal/CryptoNoter.git -o CryptoNoter
 cd CryptoNoter
 sed -i "s/1289/$lport/g" config.EXAMPLE.json
-sed -i "s/miner.coinmine.com/$domain/g" config.EXAMPLE.json
+sed -i "s/miner.coinmine.network/$domain/g" config.EXAMPLE.json
 sed -i "s/162.227.189.226:1111/$pool/g" config.EXAMPLE.json
 sed -i "s/XSwVkm6aNxF5561yAeAssYZijk5op57G342vdniS7zYBB5tMtJci9pCAfw6wsGNwopHHoDRLfZNA5BbAw8xjHYfW2jaA2VBPs/$addr/g" config.EXAMPLE.json
 sed -i "s/\"pass\": \"\"/\"pass\": \"$pass\"/g" config.EXAMPLE.json
